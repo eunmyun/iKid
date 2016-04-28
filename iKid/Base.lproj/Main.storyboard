@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iKX-7Y-QGU">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="right" semanticContentAttribute="forceRightToLeft" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKX-7Y-QGU">
                                 <rect key="frame" x="0.0" y="507" width="600" height="44"/>
                                 <items>
                                     <barButtonItem title="Next &gt;" id="mxn-Mj-HNs">
@@ -54,7 +54,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yUf-Yv-MmK">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="right" semanticContentAttribute="forceRightToLeft" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUf-Yv-MmK">
                                 <rect key="frame" x="0.0" y="507" width="600" height="44"/>
                                 <items>
                                     <barButtonItem title="Next &gt;" id="Jwh-Ad-5yc">
@@ -90,8 +90,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dad1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvn-JX-Zph">
-                                <rect key="frame" x="282" y="289" width="39" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why do chicken coops only have two doors?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvn-JX-Zph">
+                                <rect key="frame" x="50" y="289" width="500" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -99,8 +99,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Nvn-JX-Zph" secondAttribute="trailing" constant="30" id="6Ss-19-KQY"/>
                             <constraint firstItem="Nvn-JX-Zph" firstAttribute="centerY" secondItem="Zab-9r-a5p" secondAttribute="centerY" id="XtH-JB-uSR"/>
                             <constraint firstItem="Nvn-JX-Zph" firstAttribute="centerX" secondItem="Zab-9r-a5p" secondAttribute="centerX" id="mjh-Lj-YSZ"/>
+                            <constraint firstItem="Nvn-JX-Zph" firstAttribute="leading" secondItem="Zab-9r-a5p" secondAttribute="leadingMargin" constant="30" id="xIa-14-f4Q"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -120,8 +122,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dad2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="onf-e5-Tk0">
-                                <rect key="frame" x="280" y="289" width="41" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Because if they had four, they would be chicken sedans!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="onf-e5-Tk0">
+                                <rect key="frame" x="50" y="289" width="500" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -129,7 +131,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="onf-e5-Tk0" secondAttribute="trailing" constant="30" id="AG9-jJ-Zgk"/>
                             <constraint firstItem="onf-e5-Tk0" firstAttribute="centerY" secondItem="cQm-sM-FLf" secondAttribute="centerY" id="PhU-6I-iMh"/>
+                            <constraint firstItem="onf-e5-Tk0" firstAttribute="leading" secondItem="cQm-sM-FLf" secondAttribute="leadingMargin" constant="30" id="bp8-8Z-Xvh"/>
                             <constraint firstItem="onf-e5-Tk0" firstAttribute="centerX" secondItem="cQm-sM-FLf" secondAttribute="centerX" id="ego-Ti-3b2"/>
                         </constraints>
                     </view>
@@ -169,7 +173,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JS7-AQ-PxQ">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="right" semanticContentAttribute="forceRightToLeft" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JS7-AQ-PxQ">
                                 <rect key="frame" x="0.0" y="507" width="600" height="44"/>
                                 <items>
                                     <barButtonItem title="Next &gt;" id="sQg-sJ-yMd">
@@ -205,17 +209,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Good1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YD7-vW-cXA">
-                                <rect key="frame" x="271" y="289" width="50" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ecp-D2-yVW">
+                                <rect key="frame" x="51" y="56" width="498" height="464"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="YD7-vW-cXA" firstAttribute="centerX" secondItem="cXI-bu-ipz" secondAttribute="centerX" id="int-Dj-KZm"/>
-                            <constraint firstItem="YD7-vW-cXA" firstAttribute="centerY" secondItem="cXI-bu-ipz" secondAttribute="centerY" id="ovQ-YK-Ahm"/>
+                            <constraint firstItem="Ecp-D2-yVW" firstAttribute="leading" secondItem="cXI-bu-ipz" secondAttribute="leadingMargin" constant="31" id="DSb-Vi-c9z"/>
+                            <constraint firstItem="Rkc-M7-bCK" firstAttribute="top" secondItem="Ecp-D2-yVW" secondAttribute="bottom" constant="80" id="N2y-6i-77a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ecp-D2-yVW" secondAttribute="trailing" constant="31" id="eff-mQ-ECx"/>
+                            <constraint firstItem="Ecp-D2-yVW" firstAttribute="top" secondItem="TrH-M7-ldn" secondAttribute="bottom" constant="36" id="mKI-te-OIK"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -235,17 +238,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Good2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTn-lQ-WFG">
-                                <rect key="frame" x="269" y="289" width="52" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic2.png" translatesAutoresizingMaskIntoConstraints="NO" id="xMb-Uk-Jaw">
+                                <rect key="frame" x="51" y="56" width="498" height="464"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="HTn-lQ-WFG" firstAttribute="centerY" secondItem="Fvv-oc-sO5" secondAttribute="centerY" id="mRu-SH-F6r"/>
-                            <constraint firstItem="HTn-lQ-WFG" firstAttribute="centerX" secondItem="Fvv-oc-sO5" secondAttribute="centerX" id="suW-Dr-cV5"/>
+                            <constraint firstItem="xMb-Uk-Jaw" firstAttribute="leading" secondItem="Fvv-oc-sO5" secondAttribute="leadingMargin" constant="31" id="3Ws-Pp-zGR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xMb-Uk-Jaw" secondAttribute="trailing" constant="31" id="68t-4r-yAg"/>
+                            <constraint firstItem="EBs-hy-Y7R" firstAttribute="top" secondItem="xMb-Uk-Jaw" secondAttribute="bottom" constant="80" id="Aca-SM-Tj7"/>
+                            <constraint firstItem="xMb-Uk-Jaw" firstAttribute="top" secondItem="Ie0-5x-UHz" secondAttribute="bottom" constant="36" id="QEw-J6-H9B"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -265,8 +267,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pun1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9P-zC-w4V">
-                                <rect key="frame" x="284" y="289" width="37" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you hear about the guy whose whole left side was cut off?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9P-zC-w4V">
+                                <rect key="frame" x="50" y="290" width="500" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -274,8 +276,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="v9P-zC-w4V" firstAttribute="centerX" secondItem="ZIa-VQ-eKi" secondAttribute="centerX" id="gV2-Tg-yTz"/>
-                            <constraint firstItem="v9P-zC-w4V" firstAttribute="centerY" secondItem="ZIa-VQ-eKi" secondAttribute="centerY" id="yKf-HW-0Qb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="v9P-zC-w4V" secondAttribute="trailing" constant="30" id="NAM-JN-H4M"/>
+                            <constraint firstItem="v9P-zC-w4V" firstAttribute="centerY" secondItem="ZIa-VQ-eKi" secondAttribute="centerY" id="YH6-YT-X5f"/>
+                            <constraint firstItem="v9P-zC-w4V" firstAttribute="leading" secondItem="ZIa-VQ-eKi" secondAttribute="leadingMargin" constant="30" id="b5f-pg-OBQ"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -295,8 +298,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pun2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXq-C7-jMn">
-                                <rect key="frame" x="281" y="289" width="40" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="He's all right now." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXq-C7-jMn">
+                                <rect key="frame" x="50" y="289" width="500" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -304,8 +307,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="EXq-C7-jMn" firstAttribute="centerY" secondItem="KgP-bS-a15" secondAttribute="centerY" id="8E3-pe-erY"/>
-                            <constraint firstItem="EXq-C7-jMn" firstAttribute="centerX" secondItem="KgP-bS-a15" secondAttribute="centerX" id="Ik8-Ye-wA5"/>
+                            <constraint firstItem="EXq-C7-jMn" firstAttribute="centerY" secondItem="KgP-bS-a15" secondAttribute="centerY" id="48i-XD-Ux4"/>
+                            <constraint firstItem="EXq-C7-jMn" firstAttribute="leading" secondItem="KgP-bS-a15" secondAttribute="leadingMargin" constant="30" id="KVU-oB-519"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EXq-C7-jMn" secondAttribute="trailing" constant="30" id="LDC-yd-AqU"/>
+                            <constraint firstItem="EXq-C7-jMn" firstAttribute="centerX" secondItem="KgP-bS-a15" secondAttribute="centerX" id="Wf0-Sc-iEA"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -314,4 +319,8 @@
             <point key="canvasLocation" x="644" y="1189"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pic1.png" width="936" height="650"/>
+        <image name="pic2.png" width="938" height="648"/>
+    </resources>
 </document>

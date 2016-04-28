@@ -22,6 +22,8 @@
 		74C7CD611CD288B6000F3A17 /* Dad2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7CD601CD288B6000F3A17 /* Dad2.swift */; };
 		74C7CD631CD28A6D000F3A17 /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7CD621CD28A6D000F3A17 /* GoodViewController.swift */; };
 		74C7CD651CD28A7C000F3A17 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7CD641CD28A7C000F3A17 /* DadViewController.swift */; };
+		74C7CD671CD2A6A9000F3A17 /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C7CD661CD2A6A9000F3A17 /* pic1.png */; };
+		74C7CD691CD2A6C5000F3A17 /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C7CD681CD2A6C5000F3A17 /* pic2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		74C7CD601CD288B6000F3A17 /* Dad2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dad2.swift; sourceTree = "<group>"; };
 		74C7CD621CD28A6D000F3A17 /* GoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
 		74C7CD641CD28A7C000F3A17 /* DadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		74C7CD661CD2A6A9000F3A17 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
+		74C7CD681CD2A6C5000F3A17 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 				74C7CD5A1CD28894000F3A17 /* Good1.swift */,
 				74C7CD5C1CD2889E000F3A17 /* Good2.swift */,
 				74C7CD641CD28A7C000F3A17 /* DadViewController.swift */,
+				74C7CD661CD2A6A9000F3A17 /* pic1.png */,
+				74C7CD681CD2A6C5000F3A17 /* pic2.png */,
 				74C7CD5E1CD288A8000F3A17 /* Dad1.swift */,
 				74C7CD601CD288B6000F3A17 /* Dad2.swift */,
 			);
@@ -257,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				74C7CD331CD2831C000F3A17 /* LaunchScreen.storyboard in Resources */,
+				74C7CD671CD2A6A9000F3A17 /* pic1.png in Resources */,
 				74C7CD301CD2831C000F3A17 /* Assets.xcassets in Resources */,
 				74C7CD2E1CD2831C000F3A17 /* Main.storyboard in Resources */,
+				74C7CD691CD2A6C5000F3A17 /* pic2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +525,7 @@
 				74C7CD4F1CD2831D000F3A17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74C7CD501CD2831D000F3A17 /* Build configuration list for PBXNativeTarget "iKidTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +534,7 @@
 				74C7CD521CD2831D000F3A17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74C7CD531CD2831D000F3A17 /* Build configuration list for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +543,7 @@
 				74C7CD551CD2831D000F3A17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
